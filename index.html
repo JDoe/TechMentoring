@@ -4,17 +4,18 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Mentoring - The Future of Technology Education</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="How mentoring can help shape the future of technology through building the next generation of builders">
+		<meta name="author" content="Jennifer Wadella">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
 
 		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/custom.css">
 		<link rel="stylesheet" href="css/theme/default.css" id="theme">
 
 		<!-- For syntax highlighting -->
@@ -46,7 +47,7 @@
 					<h1>Mentoring<br /></h1>
 					<h3>The Future of Technology Education</h3>
 					<p>
-						<small><a href="http://hakim.se">Jennifer Wadella</a> | <a href="http://twitter.com/likeOMGitsFEDAY">@likeOMGitsFEDAY</a></small>
+						<small>Jennifer Wadella | <a href="http://twitter.com/likeOMGitsFEDAY">@likeOMGitsFEDAY</a></small>
 					</p>
 				</section>
 
@@ -57,14 +58,7 @@
 						<small><a href="http://blog.newrelic.com/2014/06/03/10-secrets-learned-software-engineering-degree-probably-didnt/">http://blog.newrelic.com/2014/06/03/10-secrets-learned-software-engineering-degree-probably-didnt/</a></small>
 					</p>
 					<aside class="notes">
-						<ul>
-							<li>Version control systems</li>
-							<li>How to write</li>
-							<li>Using libraries</li>
-							<li>Tool usage: IDEs, editors, CLI tools</li>
-							<li>Debugging</li>
-							<li>Teamwork</li>
-							<li>Working on existing code</li>
+						<p>We'll come back to this article later. It crossed my feed recently, and related too well to this talk not to include.</p>
 					</aside>
 				</section>
 
@@ -72,7 +66,7 @@
 					<h2>Jennifer Wadella </h2>
 					<p><i>@likeOMGitsFEDAY</i></p>
 					<ul>
-						<li class="fragment">Front-end dev</li>
+						<li class="fragment">Front-end developer</li>
 						<li class="fragment">Girls in STEM panelist/Technology Education Advocate</li>
 						<li class="fragment">Founder of Kansas City Women in Technology</li>
 						<li class="fragment">Organizer behind CoderDojoKC</li>						
@@ -82,7 +76,7 @@
 					<aside class="notes">
 						A little background on me - my name is Jennifer Wadella, and you can tweet at me @likeOMGitsFEDAY. 
 						<ol>
-							<li>I work as a Front-end developer at a local startup called MindMixer. I went to school for graphic design and business management. I thought I wanted to be a creative director. Hah. No. I fell into web development by accident, and having been loving life (almost) every day since.  </li>
+							<li>I work as a Front-end developer at a local startup called MindMixer. I went to school for graphic design and business management, but I fell into web development by accident, and having been loving life every day since.  </li>
 							<li>In 2013 I decided I wanted to meet more lady-devs, so I founded Kansas City Women in Technology. It's interesting being the only woman in the room, hence my founding of a more specific developer community.</li>
 							<li>CoderDojoKC is a free program that teaches kids how to code, and is another developer community. </li>
 							<li>Tech Ed Advocate - Shawnee Mission CTE Advisory board, Girls in STEM committee member, planning committee for Girls in STEM conference</li>
@@ -90,84 +84,200 @@
 						</ol>
 					</aside>
 				</section>
-				
-	
-				<section id="compscihistory">
-					<h2>The History of Computer <br />Science Education</h2>
-					<p class="fragment current-visible" data-fragment-index="0"><b>date</b> Computer Science invented</p>
-					<p class="fragment current-visible" data-fragment-index="1"><b>date</b> Computer invented</p>
-					<p class="fragment current-visible" data-fragment-index="2"><b>1946</b> Columbia offered one of the first academic-credit courses in computing. </p>
-					<p class="fragment current-visible" data-fragment-index="3"><b>1953</b> The world's first computer science degree program, the Cambridge Diploma in Computer Science, began at the University of Cambridge Computer Laboratory.</p>
-					<p class="fragment current-visible" data-fragment-index="3"><b>1962</b> The first computer science degree program in the United States was formed at Purdue University .</p>
-					
+				<section id="compscihistory" data-background="#8c4738">
+					<section>
+						<h2>The History of Computer <br />Science Education</h2>
+						<p>Overview</p>	
+						<aside class="notes">
+							Let's explore where computers came from, because the progression of computer science is key in this discussion. 
+						</aside>
+					</section>
+					<section>
+						<h2><span class="large">1834</span> First computer is "invented"</h2>
+						<p class="fragment">The Analytical Engine is theorized by Charles Babbage.</p>
+						<div class="fragment">
+							<img  src="images/analytical_engine.jpg" />
+							<p><small><a href="http://www.fourmilab.ch/babbage/lpae.html">http://www.fourmilab.ch/babbage/lpae.html</a></small></p>
+						</div>
+						<aside class="notes">
+							In 1834, Charles Babbage began his work on the Analytical Engine. While he was never able to secure government funding to build it, it layed the groundwork for fundemental concepts used in computer science today.  The Analytical Engine was designed to calculate any number based on inserted punch cards using two fundamental ideas - the "mill" and the "store". Today we know those as "CPU" and "memory". 
+						</aside>
+					</section>
+					<section bg-image="">
+						<h2><span class="large">1843</span> Computer Science is invented</h2>
+						<img class="fragment" src="images/ada_lovelace_portrait_by_chalon_1838.jpg" />
+						<p class="fragment">Ada Lovelace developes a punched card program to calculate the Bernoulli numbers.
+							<br />
+						<small><a href="http://www.fourmilab.ch/babbage/sketch.html">http://www.fourmilab.ch/babbage/sketch.html</a></small></p>
+						<aside class="notes">
+							Though computers didn't technically exist at the time, Ada Lovelace is credited with being a pioneer of computer science. She wrote the first algorithm in history, which  theoretically would calculate numbers on the Analytical Engine. Ada described how to use punch cards to enter number. She was a revoluntionary thought leader with the foresight of what computers COULD do, and understanding of the possibilities that entailed. Her predictions indcludes the use of computers to create music and graphics, and have scientific uses. 
+						</aside>	
+					</section>
+					<section>
+						<h2><span class="large">1946</span> First computer science class</h2>
+						<p class="fragment">Columbia offers one of the first academic-credit courses in computing.</p>
+						<img class="fragment" src="images/benwood.jpg" />	
+						<aside class="notes">
+							We're going to jump through history now - into the 1900s. IBM has created a computing machine, but lacked people with the knowledge to use it. In 1928 two gentlemen meet, one - Thomas Waston Sr., a chief executive of IBM, the other - Benjamin Wood, a professor at Colombia. Wood was the university's head of educational research, and had taken an interest in automating test scoring. In hopes of achieving this, he reached out to various machine companies, but only heard back from IBM. Wood, upon meeting with Watson, explained to him the possibilies of using machines for more than just mathmatics and calculations, and an intrigued Watson donated the requested machines. This relationship was the foundation for one of the first computer science education endevours. 
+						</aside>
+					</section>
+					<section>
+						<h2><span class="large">1947</span> First computer science degree programs are established.</h2>
+						<ul class="fragment">
+							<li>Professor Howard Aiken creates degree program at Harvard</li>
+							<li>Maurice Wilkes of Cambrige University creates computer degree program in 1953</li>
+						</ul>	
+						<img class="fragment" src="images/ibm-class.jpg" />
+						<aside class="notes">
+							<ul>
+								<li>The Cambridge Diploma in Computer Science, began at the University of Cambridge Computer Laboratory.</li>
+								<li>Maurice Wilkes, director of the Computer Laboratory at Cambridge University in Britain, also established a computer degree program in 1953.</li>
+								<li>Purdue forms Computer Science program in 1962.</li>
+							</ul>							
+						</aside>
+					</section>
+					<section>
+						<h2><span class="large">1960</span> Manhattan Systems Research Institute created.</h2>
+						<p lass="fragment">IBM creates it's own program to train employees</p>	
+						<aside class="notes">
+							Because of the newness of the computing industry, very few colleges were creating computer science programs. IBM creates the Manhattan Systems Research Institute, a 3 month program to train it's own employees. This program taught employees computer engineering and software programming. 
+						</aside>
+					</section>
+					<section>
+						<h2><span class="large">1970s</span> Computer Science takes off.</h2>
+						<p class="fragment">Programming languages are invented, more computer companies are founded, computer science enrollment rates rise.</p>
+						<p class="fragment">*In the mid-1980's enrollment of women in computer science was the highest it's <i>ever</i> been. </p>
+					</section>
+					<section>
+						<h2><span class="large">2000/2001</span> Dot com bust</h2>
+						<p class="fragment">Computer science enrollment plummets. </p>
+						<img class="fragment" src="images/pRJfgXW.gif" width="500px" />
+						<aside class="notes">
+							In the 90s, internet startups began. They grew rapidly and in large frequency, the investors invested heavily, in turn leading to a large economic boom. Unfortunately, much of this was due to excitement of possibilites, rather than actual business models describing how profit would be made. Large sums of money were invested in companies without a business plan, simply due to the fear of 'missing out'. Eventually investors realized their pursuits were loss-making companies and backed out and left companies in a state of burnt-through venture capital funds. Remaining jobs became widely outsourced, and computer science lost popularity and sustainability as a career path in the US.   
 
-					
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
+							And yes, we've reached the reaction gif portion of the presentation.
+						</aside>	
+					</section>
+					<section>
+						<h2><span class="large">2007</span> Economy begins to recover.</h2>
+						<p class="fragment">Computer Science enrollment slowly begins climbing again.</p>
+						<p class="fragment">In 2013 computer science undergraduate degrees rose by 2.92% </p><p class="fragment">... and Doctorate degrees rose by 5.2%</p>	
+						
+						<p class="fragment"><small><a href="http://cra.org/govaffairs/blog/2013/03/taulbeereport/">http://cra.org/govaffairs/blog/2013/03/taulbeereport/</a></small></p>
+						<aside class="notes">
+							Only .4% of those graduates reported unemployment. They must not have updated their Linked In. 
+						</aside>
+					</section>
+					<section>
+						<h2><span class="large">2014</span> Halt & Catch Fire airs on AMC.</h2>
+						<img src="images/haltcatchfire.jpg" />
+						<p class="fragment">If you're interested in the 1980's time chunk I skipped over, watch this show. </p>
+						<aside class="notes">
+							So graduation rates in computer science are on the rise, which is good. But they aren't rising quickly enough to match the growth of jobs, which is rising exponentially. 
+						</aside>	
+					</section>
 				</section>
-				<section id="village">
-					<h2>It Takes a Village ...</h2>
-					<p>
-						"Because there were so few university courses in computing in the early days, IBM set up the Manhattan Systems Research Institute in 1960 to train its own employees. It was the first program of its kind in the computer industry. The three-month program included courses in computer engineering, software programming and designing systems to solve particular customer problems.""
-					</p>
-					<p><small>http://www-03.ibm.com/ibm/history/ibm100/us/en/icons/compsci/</small></p>
-
-					<aside class="notes">
-						<p>IBM was fundamental in the creation of computer science programming, because they had the need for these employees. If we want to create a sustainable workforce, this is a model to adapt.</p>
-					</aside>
-				</section>
-
 				<section id="today">
 					<h2>Where We Are Today</h2>
 					<img src="images/job-student-gap.png" />
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
-
+					<p><small><a href="http://www.bls.gov/">http://www.bls.gov/</a></small></p>
 					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
-
-				<section id="growthtrends">
-					<h2>Industry Growth</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						<p>According to the 2010 - 2012 report from the Bureau of Labor Statistics, across all industries we are adding 136,620 jobs per year in computing, while we only average 40,000 CS grads every year. </p>
+						<p>I'm not going to spend much time going over currently industry growth and the lack of bodies to fill jobs, I feel that's beating a dead horse at this point. We're going to talk about how mentoring can tackle that issue.</p>
 					</aside>
 				</section>
 
 				<section id="currentcurriculum">
 					<h2>Current Curriculum</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
+					<img src="images/why-numbers-so-bad.png" />
+					<p><small>Source: Code.org database of local computer programming schools, sourced by a combination of data from the College Board, the Computer Science Teachers Association, and individual teacher submissions.</small></p>
 
 					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						9 out of 10 schools don't teach computer science. Many of them are still attempting to itegrate teach keystrokes and the Microsoft Suite into the curriculum. Those that do have attempted to use free in-browser programs like Scratch and Alice to demonstrate programming. A few even teach java. One thing I haven't seen in any stats are how many of those schools teaching computer science have a computer science teacher. 
+
+						When I was in high school, and I'm not THAT old, mind you, I taught my computer class. Our wrestling coach couldn't be bothered to read the text book to understand how the program worked, and besides, computers were hard. I would read the lesson plan during one of my free hours, play on the computer to be sure I could execute, and then instruct the class. Finally I would circulate the room, having my patience tried by those who didn't find the program as intutive as I did. For frame of reference, this 'program' was photoshop. 
+
+						Code.org has created a fantastic movement pushing to get computer science taught in schools, and both schools and goverments seemed to understand the importance. However things get muddled in the execution ...
+					</aside>
+				</section>
+
+				<section id="village">
+					<h2>It Takes a Village ...</h2>
+					<p class="fragment current-visible" data-fragment-index="0">"Because there were so few university courses in computing in the early days, IBM set up the Manhattan Systems Research Institute in 1960 to train its own employees. It was the first program of its kind in the computer industry. The three-month program included courses in computer engineering, software programming and designing systems to solve particular customer problems."
+						<br />
+						<small><a href="http://www-03.ibm.com/ibm/history/ibm100/us/en/icons/compsci/">http://www-03.ibm.com/ibm/history/ibm100/us/en/icons/compsci/</a></small>
+					</p>
+					<p class="fragment current-visible" data-fragment-index="1"></p>
+
+					<aside class="notes">
+						<p> I mentioned the Manhattan Systems Research Institute in that little history lesson, but I want to spend more time discussing that concept. </p>
+						<p>IBM was fundamental in the creation of computer science programming, because they had the need for these employees. If we want to create a sustainable workforce, this is a model to adapt.</p>
+						<p>It's funny, this title is called "the future of technology education", but a more appropriate title would probably be 'returning to technology education'.</p>
+						<p>It wasn't always that technical education was in the hands of a government-regulated education system. Sure, we've been learning reading, writing, and 'rithmatic since the dawn of a 1 room schoolhouse(I'm just referring to US history, by the way), but trades were learned from parents and employers. Children and teenagers learned from adults in their community how to do more than add 2 + 2, but how to run a shop, how to stable horses, or sow seeds for crops.</p>
+						<p> In his essay, Why Nerd Are Unpopular, Paul Graham actually visits this concept of when teenagers being useful memebers of society, vs. today, where high school is toned down demonstration of Lord of the Flies. But let's look at teenagers today, or maybe even the teenager you were. No responsibility, no bills to pay, and plenty of time. And with those who engineerishly-inclined, much of that time may be spent on a computer.</p> 
+						<p>Why are we abandoning this workforce that just needs a little guidance?</p>
+					</aside>
+				</section>
+
+				<section id="mentoringvalue">
+					<h2>Enter the Mentor.</h2>
+					<p>A guiding light, </p>
+
+					<aside class="notes">
+						<p>Previous Article</p>
+						<ul>
+							<li>Version control systems</li>
+							<li>How to write</li>
+							<li>Using libraries</li>
+							<li>Tool usage: IDEs, editors, CLI tools</li>
+							<li>Debugging</li>
+							<li>Teamwork</li>
+							<li>Working on existing code</li>
+						</ul>
 					</aside>
 				</section>
 
 				<section id="currentprogramming">
 					<h2>Current Programming</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
+					<ul>
+						<li>CoderDojo</li>
+						<li>Code.org curriculumn</li>
+						<li>Computer Science Education Week - December 8th-14th</li>
+						<li>Hour of Code</li>
+					</ul>
 
 					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						<p>Code.org is pushing to get computer science taught in more schools across the country, and schools seem to be willing to implement, but there aren't qualified candidates to fill those teaching roles. </p>
 					</aside>
 				</section>
-				
+
+				<section id="implementprogramming">
+					<h2>How to Implement Programming</h2>
+					<p>The hard part is already done!</p>
+					<p>Don't re-invent the wheel</p>
+
+					<aside class="notes">
+						The great thing about bringing programming to you area is that most the heavy lifting is already done. 
+					</aside>
+				</section>
+				<section id="getmentors">
+					<h2>How to Get Mentors On Board</h2>
+					<p>The hard part is already done!</p>
+					<p>Don't re-invent the wheel</p>
+
+					<aside class="notes">
+						The great thing about bringing programming to you area, is that most the heavy lifting is already done. 
+					</aside>
+				</section>
+				<section id="getcompanies">
+					<h2>How to Get Companies On Board</h2>
+					<p>The hard part is already done!</p>
+					<p>Don't re-invent the wheel</p>
+
+					<aside class="notes">
+						The great thing about bringing programming to you area, is that most the heavy lifting is already done. 
+					</aside>
+				</section>
 
 			</div>
 
@@ -186,8 +296,10 @@
 				history: true,
 				center: true,
 
+
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+				backgroundTransition: 'slide',
 
 				// Parallax scrolling
 				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
