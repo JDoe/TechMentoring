@@ -4,3 +4,7 @@
 	margin-right: 30px;
 	text-transform: none;
 }
+
+aside.notes p{
+	font-size: 10px;
+}
